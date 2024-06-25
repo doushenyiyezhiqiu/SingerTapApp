@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "shop_id": {
+      "type": "string"
+    },
+    "shop_name": {
+      "type": "string"
+    },
+    "authorized": {
+      "type": "boolean"
+    }
+  }
+}

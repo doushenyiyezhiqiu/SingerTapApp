@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tiktok-tap"
+version = "0.1.0"
+description = "Singer tap for extracting data from TikTok Shop TTS API"
+authors = ["Liangshe Li"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+singer-python = "^6.0.1"
+requests = "^2.32.3"
+flask = "^3.0.3"
+
+
+[tool.poetry.scripts]
+tiktok_tap = "tiktok_tap:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
