@@ -12,20 +12,17 @@ This project is a Singer tap application that extracts data from the TikTok Shop
 
 ## 1. Clone the Repository
 
-bash:
 git clone https://github.com/yourusername/official-website-template.git
 cd official-website-template
 
 ## 2. Install Dependencies
 Use Poetry to install the required dependencies:
 
-bash:
 poetry install
 
 ## 3. Configure Your Application
 Create a sample_config.json file in the root directory and fill it with your own API key, secret, and access token. You can use the following template:
 
-json:
 {
   "app_key": "your_app_key",
   "app_secret": "your_app_secret",
@@ -33,7 +30,7 @@ json:
   "start_date": "2020-01-01"
 }
 
-### 4. Obtain Access Token
+## 4. Obtain Access Token
 If you don't have an access token yet, follow these steps:
 
 ### 1. Run the OAuth flow to get the access token:
@@ -52,3 +49,8 @@ After authorizing the app, TikTok will redirect you back to http://localhost:500
 ### 4. Update sample_config.json:
 
 Replace "your_access_token" in sample_config.json with the obtained access token.
+
+## 5. Run the Tap Application
+To start the tap application, use the following command:
+
+poetry run tiktok_tap --config sample_config.json
