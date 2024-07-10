@@ -54,3 +54,16 @@ Replace "your_access_token" in sample_config.json with the obtained access token
 To start the tap application, use the following command:
 
 poetry run tiktok_tap --config sample_config.json
+
+
+# Hi, I'm Xinyu Wan.
+
+You can call me "WanWan."
+
+I finished my Master's program at Northwestern University in Boston.
+
+I joined ThoughtWorks in 2021 as a QA and rejoined TW in 2024 as a Dev.
+
+Wish I could do better in my new role!
+
+![Profile Picture](url-to-your-photo)
